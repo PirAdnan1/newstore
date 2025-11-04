@@ -17,7 +17,7 @@ function Footer() {
         <div className="flex flex-col lg:flex-row mt-24 justify-between text-black font-semibold items-start px-8  pt-6 gap-y-12 lg:gap-0">
           <div className=" flex flex-col space-y-3">
             <Link href={"/"} className="text-2xl font-bold">
-            <Image src={Logo} alt="logo" width={140} height={140} />
+            <Image src={Logo} alt="logo" className="md:w-[140px] md:h-[140px] w-20 h-20" />
             </Link>
             <Link href={"/"} className="text-lg">
               Subscribe
