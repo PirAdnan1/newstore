@@ -12,7 +12,7 @@ function Hero() {
         <Container>
             <div className='flex flex-col md:flex-row items-center text-white pt-4 md:pt-10'>
                 <Image src={HeroImage} className='order-2 md:order-1' />
-                <div className='order-1 md:order-2'>
+                <div className='order-1 md:order-2 pl-2 md:pl-0'>
                     <h1 className='md:text-3xl lg:text-5xl text-xl font-semibold'>New Collections of Fashion Clothes</h1>
                     <p className='text-base'>Find fashion-forward outfits perfect for every occasion</p>
                 </div>
